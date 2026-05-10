@@ -1,0 +1,39 @@
+# Compiled MT5 binaries
+*.ex5
+
+# MT5 build/compile logs
+*.log
+*.compile.log
+
+# Backtest HTML reports (large, binary-encoded)
+*.htm
+*.html
+
+# Tester logs
+Tester/
+
+# Local helper logs / scratch
+log_*.txt
+pip_err.txt
+pip_out.txt
+
+# Python / temp
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Claude session data
+.claude/
+
+# Backtest result CSVs (data files — historical runs, can be regenerated)
+results_*.csv
+walkforward_*.csv
+gold_correlate_aggregate.csv
+backtest_results.json
